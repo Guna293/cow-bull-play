@@ -34,7 +34,7 @@ else
     t=0
 }
 
-console.log(number)
+ 
 }
 
 var chances=0

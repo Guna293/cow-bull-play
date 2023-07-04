@@ -68,7 +68,7 @@ function check()
 
     function result()
     {
-        if(chances>1)
+        if(chances>8)
     {
         k="YOUR CHANCES COMPLETED,BETTER LUCK NEXT TIME!!!"
         document.getElementById("submit").disabled=true

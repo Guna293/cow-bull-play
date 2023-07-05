@@ -37,7 +37,7 @@ else
  
 }
 
-var chances=0
+var chances=1
 function check()
 {
     chances+=1

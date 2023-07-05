@@ -1,5 +1,5 @@
 
-var p,k,q,t=1,number,i;
+var p,k,q,t=1,number,i,a;
 function start()
 {
     p=document.getElementById("name").value;
@@ -73,6 +73,8 @@ function check()
         k="YOUR CHANCES COMPLETED,BETTER LUCK NEXT TIME!!!"
         document.getElementById("submit").disabled=true
         document.getElementById("in").textContent=k
+         a="Your number :"+number;
+        document.getElementById("correct").textContent=a 
     }
     else
     {

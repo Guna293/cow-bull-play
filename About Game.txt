@@ -1,11 +1,20 @@
                COW-BULL GAME
             --------------------
--->In this game you will have 8 chances to guess the number correctly.
-BULL--> place value of a number is matched.
-COW-->value present in the number.
-ex:456 and 485
-ans: 1 bull(for 4),1 cow (for 5)
-ex2:986 and 829
-ans:0 bull ,2 cow(for 9,8)
+-->Computer will generate a number,and you should find the number in 8 chances.
+-->The number must be three digits number and repeated digits are not allowed.
+ex:112 ( 1 repeated twice ) not allowed.
+ex:234 (no repeted digits) allowed.
+
+
+          BULL                                                             COW
+       ----------                                                      -----------
+* Place of the digit in the number will match.               * The digit present in the number
+
+                                                                
+                                       ex: computer generated number(456)  and   your number (485)
+                                       ans: 1 bull (for 4) , 1 cow (for 5).
+
+                                       ex2:computer generated number(986)  and   your number (829)
+                                       ans: 0 bull , 2 cow (for 9,8).
 
 
